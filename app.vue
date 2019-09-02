@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div v-if="isLoading">
             Loading ...
         </div>
@@ -39,3 +39,9 @@
         },
     };
 </script>
+
+<style>
+    button {
+        margin: 5px;
+    }
+</style>

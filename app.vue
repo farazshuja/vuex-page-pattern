@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
         <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
         <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+        <style>
+            button { margin: 2px !important; }
+        </style>
     </div>
 </template>
 
@@ -39,9 +42,3 @@
         },
     };
 </script>
-
-<style>
-    button {
-        margin: 5px;
-    }
-</style>

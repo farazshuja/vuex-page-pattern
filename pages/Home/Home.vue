@@ -11,6 +11,22 @@
                 </ul>
             </li>
         </ul>
+        <div class="row">
+            <div class="column">
+                <h3>Pros</h3>
+                <ul>
+                    <li>Resetting state related code is only at one place i.e. Page's created/destroyed hook</li>
+                    <li>No need to reset individual component's state</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Cons</h3>
+                <ul>
+                    <li>Need to create component store nested under pageStore</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
         <p>Count {{ count }}</p>
         <button @click="incrementCount()">Increment Count</button>
         <hr />

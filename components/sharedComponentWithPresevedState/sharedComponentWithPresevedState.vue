@@ -11,8 +11,10 @@
 import store from './store';
 import { createNamespacedHelpers } from 'vuex'
 
-const STORE_PATH = 'componentStore';
-const { mapGetters, mapActions } = createNamespacedHelpers(STORE_PATH);
+
+const STORE_PATH = ['pageStore', 'componentPreservedStore'];
+const { mapGetters, mapActions } = createNamespacedHelpers(STORE_PATH.join('/'));
+
 
 export default {
     name: 'SharedComponentWithPreservedState',

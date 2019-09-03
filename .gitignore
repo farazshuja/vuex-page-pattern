@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+config/dev.proxy.mine.js
+docs/.vuepress/dist/
+/.idea/
+*.iml
+
+test/coverage/
+
+.vuepress/dist/
+/test/integration/screenshots/
+/.nyc_output/
+/test/integration/coverage/

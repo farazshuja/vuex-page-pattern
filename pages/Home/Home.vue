@@ -23,6 +23,7 @@
                 <h3>Cons</h3>
                 <ul>
                     <li>Need to create component store nested under pageStore</li>
+                    <li>Watches of component containing the router-vue should explicitly checked for new and old values, otherwise un-real watch events can be fired</li>
                 </ul>
             </div>
         </div>
